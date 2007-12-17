@@ -13,7 +13,6 @@ Group:		Networking/Mail
 Requires:	python
 BuildRequires:  python-devel
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Active Spam Killer (ASK) protects your email account against spam
