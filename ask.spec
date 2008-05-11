@@ -1,6 +1,6 @@
 %define name	ask
 %define version	2.5.3
-%define release	%mkrel 3
+%define release	%mkrel 4
 
 Summary:	Active Spam Killer
 Name:		%{name}
@@ -12,7 +12,6 @@ URL:		http://www.paganini.net/ask-2.4
 Group:		Networking/Mail
 Requires:	python
 BuildRequires:  python-devel
-BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
