@@ -1,14 +1,14 @@
 %define name	ask
 %define version	2.5.3
-%define release	%mkrel 6
+%define release	%mkrel 7
 
 Summary:	Active Spam Killer
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Source0:	%{name}-%{version}.tar.bz2
-License:	GPL
-URL:		http://www.paganini.net/ask-2.4
+License:	GPLv2+
+URL:		http://a-s-k.sourceforge.net/
 Group:		Networking/Mail
 Requires:	python
 BuildRequires:  python-devel
