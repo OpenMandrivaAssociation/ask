@@ -1,6 +1,6 @@
 %define name	ask
 %define version	2.5.3
-%define release	%mkrel 7
+%define release	%mkrel 8
 
 Summary:	Active Spam Killer
 Name:		%{name}
