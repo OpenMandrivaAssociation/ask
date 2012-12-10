@@ -94,3 +94,52 @@ install -m0644 docs/*.1 %{buildroot}%{_mandir}/man1/
 %{_mandir}/man1/askfilter.1*
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 2.5.3-8mdv2011.0
++ Revision: 609995
+- rebuild
+
+* Wed Mar 10 2010 Emmanuel Andry <eandry@mandriva.org> 2.5.3-7mdv2010.1
++ Revision: 517497
+- fix licence and URL
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 2.5.3-6mdv2010.0
++ Revision: 423962
+- rebuild
+
+* Thu Aug 07 2008 Thierry Vignaud <tv@mandriva.org> 2.5.3-5mdv2009.0
++ Revision: 266185
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sun May 11 2008 Nicolas Lécureuil <nlecureuil@mandriva.com> 2.5.3-4mdv2009.0
++ Revision: 205584
+- Should not be noarch ed
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Sep 11 2007 Emmanuel Andry <eandry@mandriva.org> 2.5.3-3mdv2008.0
++ Revision: 84466
+- rebuild
+
+
+* Sun Feb 04 2007 Nicolas Lécureuil <neoclust@mandriva.org> 2.5.3-2mdv2007.0
++ Revision: 116141
+- Rebuild
+- Import ask
+
+* Sun May 14 2006 Emmanuel Andry <eandry@mandriva.org> 2.5.3-1mdk
+- 2.5.3
+- mkrel
+
+* Sat Aug 27 2005 Oden Eriksson <oeriksson@mandriva.com> 2.5.0-2mdk
+- rebuild
+
+* Thu Jul 01 2004 Spencer Anderson <sdander@oberon.ark.com> 2.5.0-1mdk
+- new version
+
