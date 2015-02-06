@@ -4,7 +4,7 @@
 Summary:	Active Spam Killer
 Name:		ask
 Version:	2.5.3
-Release:	9
+Release:	10
 License:	GPLv2+
 Group:		Networking/Mail
 Url:		http://a-s-k.sourceforge.net/
