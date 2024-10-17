@@ -7,7 +7,7 @@ Version:	2.5.3
 Release:	10
 License:	GPLv2+
 Group:		Networking/Mail
-Url:		http://a-s-k.sourceforge.net/
+Url:		https://a-s-k.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
 
 %description
